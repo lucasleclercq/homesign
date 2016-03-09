@@ -1,0 +1,284 @@
+*{margin: 0; padding: 0; font-family: 'lato'; box-sizing: border-box;}
+html{height:100%; font-family: 'roboto', sans-serif; }
+body{margin-top: 95px;}
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+h2{text-align: center; font-weight: 100; }
+p{text-align: center; font-weight: 100; }
+.border-h2
+{
+	border-bottom: 2px solid orange;
+	width: 100px;
+	margin: 0 auto; 
+	display:block;
+	margin-bottom: 10px;
+}
+/*button {
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid orange;
+    border-radius: 5px 0 0 0;
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 8px 12px;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.buttoncenter {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+}*/
+
+/*==============================  MENU ====================================
+*/
+.navbar-toggle{margin-top: 30px;}
+.container-fluid{
+	padding: 0;
+}
+.navbar {margin-bottom: 0;}
+.navbar-nav{
+	
+	margin-left: 60px;
+}
+.navbar-default {
+	background-color: rgba(255,255,255,0.9);
+	border: none;
+}
+.navbar-header{
+	width: 277px;
+	padding: 22px 0;
+	float: left;
+}
+.navbar-brand{
+	height: auto;
+	padding: 0;
+}
+#logo-homesign{width: 80%; margin: auto; min-width: 150px; padding-left: 10px; padding-top: 3px; }
+
+#icones{float: right; padding-right: 20px;}
+#icones a{color: #000; }
+
+#icones .fa-search{margin: 14px 12px 12px 12px; font-size: 21px; line-height: 72px; color: #555; }
+#icones .btn-group {margin-top: -5px;}
+#icones .btn-group button i.fa {border: none;height: 50px; font-size: 24px; line-height: 27px;color: #555;}
+#icones .btn-group button {border: none;height: 35px; padding-top: 4px; vertical-align: none;}
+.navbar-default .navbar-nav li a{font-size: 13px;font-weight: 300;line-height: 69px;letter-spacing: 1.3px;}
+.navbar-default .navbar-nav li a:hover, a:hover {
+	color: orange;
+}
+#menu-user{
+	display: inline-block;
+}
+#menu-user ul{
+	display: none;
+} 
+li{
+	list-style-type: none;
+}
+#menu-user li:hover ul{
+	display: block;
+}
+/*============================== FIN MENU ====================================
+*/
+/*============================== LOGIN ====================================
+*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+#login_page{margin-top: 0; height: 100vh;overflow: hidden;}
+#login_page .login_back {
+	width: 100%;
+	filter: blur(5px);
+  	-webkit-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	-moz-filter: blur(5px);
+} 
+.form-cont .logo_form{width: 280px;margin: 40px auto 35px auto;}
+.form-cont{
+	text-align: center;
+	border-radius: 10px;
+	border:1px solid orange; 
+	width: 320px; height: 320px; 
+	background-color: rgba(255,255,255,0.2);
+	top:50%; left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+}
+.form-cont h3{text-align: center;margin-bottom: 20px;}
+#login_form{width: 245px; margin: 0 auto;}
+#login_form input {
+	color: #888;
+	width: 100%;
+	background-color: rgba(255,255,255,0.3);
+	padding: 9px 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#login_form input.submit {background-color: rgba(253,164,40,0.6); color: rgba(255, 255, 255, 0.8);}
+#login_form .input-group{margin-bottom: 9px;}
+#login_form .input-group-addon{
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid rgba(255, 255, 255, 0.2); 
+	border-right: none;	
+}
+.form_opt{position: absolute;bottom: 0; width: 100%;padding: 8px 12px;}
+.mdpperdu{float: left; width: 100%; font-size: 12px;}
+.mdpperdu a {color: #777;}
+
+input {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  transition: background-color .3s;
+}
+
+
+
+/*============================== FIN LOGIN ====================================
+*/
+
+/*============================== CAROUSEL ====================================
+*/
+.slider-div{padding: 0;}
+.slider-div .row {margin: 0;}
+
+#my_carousel{
+ 	padding-right: 0px;
+}
+.carousel-inner{
+	min-height: 505px;
+	max-height: 545px;
+	overflow: hidden;
+}
+.item img{
+	width: 100%;
+	min-height: 100%;
+}
+.carousel-indicators{
+	position: absolute;
+    width: 2%;
+    margin: 0;
+    top: 42%;
+    left: 96%; /*left parce que si je met right le css bootstrap prend le dessus et tout reste au milieu*/
+}
+.carousel-indicators li, .carousel-indicators .active {
+	margin: 0 0 5px 0;
+}
+.carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition: 0.6s ease-in-out top;
+    -ms-transition: 0.6s ease-in-out top;
+    -o-transition: 0.6s ease-in-out top;
+    transition: 0.6s ease-in-out top;
+}
+.carousel.vertical .next, .carousel.vertical .active.right {
+    top: -1000px;
+   
+}
+.carousel.vertical .prev, .carousel.vertical .active.left {
+    top: 1000px;
+}
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right,
+.carousel.vertical .active {
+    top: 0;
+}
+.carousel.vertical .item {
+    left: 0;
+}
+.carre img{
+   width:100%;
+}
+.carre-haut {margin-bottom:15px; }
+/*============================== FIN CAROUSEL ====================================
+*/
+/*============================== CONTENU   ====================================
+*/
+.bordure-image{
+	border-top: 1px solid black;
+	margin-bottom: 40px;
+}
+.ambiance-row{
+	margin: 0 !important;
+}
+.ambiance {
+	margin: 0;
+	height: 290px; 
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 40px;
+}
+.ambiance img{
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+	z-index: -1;
+}
+.produit-grand{
+    padding: 0;
+    height: auto;
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 5px 0 10px 0;
+}
+.produit-grand img{
+    width: 100%;
+    display: block;
+    height: 230px;
+}
+
+
+/*============================== FIN CONTENU   ====================================
+*/
+
+/*============================== MEDIA QUERIES   ====================================
+*/
+@media screen and (min-width: 1437px) {
+	.carousel-inner{
+		max-height: 635px;
+	}
+}
+@media screen and (max-width: 475px) {
+	#my_carousel{padding-left: 0; margin-bottom: 15px;}
+	.carousel-inner{
+		height: auto;
+		min-height: 0;
+	}
+	.produit{
+		margin:0;
+	}
+	#login_page{margin-top: 0; height: 100vh;overflow: hidden; text-align: center;}
+	#login_page .login_back {
+	width: auto;
+	height: 100%;
+	filter: blur(5px);
+  	-webkit-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	-moz-filter: blur(5px);
+}
+
+}
