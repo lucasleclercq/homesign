@@ -16,11 +16,11 @@
     <!-- =================== partie Ambiance ====================-->
     <div class="row ambiance-row">
          <div class="col-sm-6 col-xs-12 ambiance">
-         	<img src="/assets/img/home/ambiancenature.jpg">
+         	<img src="assets/img/home/ambiancenature.jpg">
             <button class="button buttoncenter" type="submit">Ambiance Nature</button>
          </div>
          <div class="col-sm-6 col-xs-12 ambiance">
-         	<img src="/assets/img/home/ambiancecosi.jpg">
+         	<img src="assets/img/home/ambiancecosi.jpg">
             <button class=" button buttoncenter" type="submit">Ambiance Cosi</button>
          </div>
     </div>
@@ -34,7 +34,7 @@
          <div class="col-xs-12 col-sm-4">
             <div class="produit">
                 <a href="#">
-                    <img src="/assets/img/non-trie/tabouret-or.jpg">
+                    <img src="assets/img/non-trie/tabouret-or.jpg">
                     <p>Les tabourets</p>
                 </a>
             </div>
@@ -42,7 +42,7 @@
          <div class="col-xs-12 col-sm-4">
             <div class="produit-grand">
                 <a href="#">
-                    <img src="/assets/img/non-trie/meuble-tv.jpg">
+                    <img src="assets/img/non-trie/meuble-tv.jpg">
                     <p>Les buffets</p>
                 </a>
             </div>
@@ -50,7 +50,7 @@
          <div class="col-xs-12 col-sm-4">
             <div class="produit">
                 <a href="#">
-                    <img src="/assets/img/home/luminaire.jpg">
+                    <img src="assets/img/home/luminaire.jpg">
                     <p>Lunimaires</p>
                 </a>
             </div>
