@@ -12,4 +12,5 @@
 	<script src="http://homesign.eu/assets/js/jquery.js"></script>
 	<!--===================================== JS =========================================-->
 	<script src="http://homesign.eu/assets/js/bootstrap.min.js"></script>
+	<!-- jfklhlkdsjlfjljfs -->
 </head>
